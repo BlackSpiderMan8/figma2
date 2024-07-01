@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+}
+
+.first{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.first1{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-left: 100px;
+    color: gray;
+}
+.first1 p:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+}
+.first2{
+    width: 25%;
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first2 button{
+    width: 195px;
+    height: 36px;
+    background-color: white;
+    color: #3A85F4;
+    border: 1px solid #3A85F4;
+    border-radius: 50px;
+}
+.first2 button:hover{
+    cursor: pointer;
+    background-color: #3A85F4;
+    color: white;
+    transition: 0.3s;
+}
+.first2 img:hover{
+    cursor: pointer;
+}
+
+
+.second{
+    width: 100%;
+    height: 715px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 18%, rgba(159,229,244,1) 100%);
+}
+.left{
+    width: 50%;
+}
+.left h1{
+    width: 680px;
+    margin-left: 100px;
+    padding-top: 165px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.left p{
+    line-height: 25px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.left button{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 18px;
+    width: 265px;
+    height: 50px;
+    background-color: #3A85F4;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.left button:hover{
+    cursor: pointer;
+    background-color: #136cf2;
+    transition: 0.4s;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 80%;
+    padding-left: 100px;
+}
+
+
+.third{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center; 
+    justify-content: space-between;
+}
+#howitwork{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 125px;
+}
+.arrow{
+    width: 32px;
+    height: 10px;
+}
+.how{
+    width: 266px;
+    height: 350px;
+    text-align: center;
+}
+.how img{
+    width: 100%;
+}
+
+
+#comunity{
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+#help{
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.fourth{
+    height: 1400px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fourth img{
+    width: 500;
+    height: 568px;
+}
+#all{
+    width: 265px;
+    height: 50px;
+    margin: auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 50px;
+    border: 2px solid #3A85F4;
+    background-color: white;
+    color: #3A85F4;
+}
+#all:hover{
+    cursor: pointer;
+    background-color: #3A85F4;
+    color: white;
+    transition: 0.4s;
+}
+
+
+.fifth{
+    width: 100%;
+    height: 120px;
+    margin-top: 80px;
+    background-color: #262628;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fifth1{
+    width: 60%;
+    display: flex;
+    margin-left: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.fifth1 p{
+    padding: 0px 10px;
+}
+.fifth1 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fifth2{
+    width: 10%;
+    display: flex;
+    margin-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.fifth2 img:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width:412px) {
+    .first{
+        width: auto;
+        
+    }
+    .first p{
+        display: none;
+    }
+    .first img{
+        
+    }
+
+    .second{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        margin: 0;
+    }
+    .left h1{
+        margin: 0;
+
+    }
+}
